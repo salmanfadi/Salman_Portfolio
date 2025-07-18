@@ -1,0 +1,10 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+# *
+Disallow: /api/*
+
+Sitemap: https://salman.dev/sitemap.xml
