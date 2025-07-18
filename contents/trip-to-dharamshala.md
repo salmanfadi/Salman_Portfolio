@@ -8,8 +8,8 @@ tags:
   - Blog
 author: Salman Fadi
 type: blog
-coverImage: https://res.cloudinary.com/noezectz/image/upload/v1653050141/SatNaing/blog_at_cafe_ei1wf4.jpg
-coverImageAlt: Macbook at a cafe
+coverImage: /triund.png
+coverImageAlt: Triund hiking trail in Dharamshala
 title: A Dharamshala trip
 description:
   My experience about going on a trip
