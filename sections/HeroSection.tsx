@@ -144,9 +144,11 @@ const HeroSection: React.FC = () => {
             every project I work on.
           </p>
         </div>
-        <LinkButton href={`mailto:${process.env.NEXT_PUBLIC_EMAIL}`}>
-          Contact me!
-        </LinkButton>
+        <div className="flex gap-4">
+          <LinkButton href="/Salman_updated_cv.pdf" targetBlank>
+            My Resume
+          </LinkButton>
+        </div>
       </div>
       <a
         href="#whoami"
