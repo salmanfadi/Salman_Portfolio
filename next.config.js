@@ -1,13 +1,11 @@
 /** @type {import('next').NextConfig} */
 
 module.exports = {
-  async redirects() {
+  async rewrites() {
     return [
       {
-        source: "/admin",
-        destination: "https://app.forestry.io/login",
-        permanent: true,
-        basePath: false,
+        source: '/sitemap.xml',
+        destination: '/api/sitemap.xml',
       },
     ];
   },
